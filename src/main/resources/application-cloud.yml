@@ -1,0 +1,9 @@
+spring:
+  profiles: cloud
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      default-zone: https://weather-app-eureka-server.herokuapp.com/eureka/
