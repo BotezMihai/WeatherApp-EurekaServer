@@ -1,0 +1,9 @@
+spring:
+  profiles: dev
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      default-zone: http://localhost:8761/eureka/
