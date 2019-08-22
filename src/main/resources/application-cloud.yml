@@ -5,14 +5,5 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
-    serviceUrl:
-      defaultZone: https://weather-app-eureka-server.herokuapp.com/eureka/
-  instance:
-    secure-port: 443
-    secure-port-enabled: true
-    non-secure-port: 80
-
-
-server:
-  ssl:
-    enabled: true
+    service-url:
+      default-zone: https://weather-app-eureka-server.herokuapp.com/eureka/
