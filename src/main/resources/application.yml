@@ -1,6 +1,9 @@
 server:
   port: 8761
 
+url:
+  oauthApiUrl: https://localhost:8445/check-token
+
 spring:
   application:
     name: eureka-server

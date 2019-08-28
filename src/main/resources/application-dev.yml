@@ -7,3 +7,12 @@ eureka:
     register-with-eureka: false
     service-url:
       default-zone: http://localhost:8761/eureka/
+
+zuul:
+  routes:
+    weather:
+      path: /weather/**
+      url: http://localhost:8081/weather
+    extreme-events:
+      path: /extreme-events/**
+      url: http://localhost:8082/extreme-events
